@@ -1,0 +1,77 @@
+# jemdoc: menu{MENU.txt}{Research.html}
+=Research
+
+~~~
+The goal of my researches is to develop efficient data-driven decision-making algorithms and theory, enabling principled approaches via statistics and machine learning to addressing modern societal, medical, and economic challenges. Specifically, I’m interested in the following perspectives and topics:
+- Demystifying the mathematical and statistical foundations of machine learning/reinforcement learning algorithms.
+- Promoting robustness of machine learning methods in complex dynamic systems, with special attention to problems
+involving distributional robustness, confounding, and partial observability.
+- Developing modern machine learning models with low computational and memorial costs.\n
+
+With these goals, my researches are based across the span of statistics, optimization, and machine learning.
+~~~
+
+== Selected Research Experiences (By Topic)
+
+During my undergraduate years, I am quite fortunate to be advised by several wonderful professors, for which I can explore the frontiers of areas that I am interested in.
+
+
+=== Reinforcement Learning Theory
+
+~~~
+{}{img_left}{fig_econ.png}{alt text}{300}{233.6}
+
+*Project 1:* Reinforcement learning for Markovian exchange economy\n
+*Advisor:* Prof. [https://scholar.google.com/citations?user=k7NgVSUAAAAJ&hl=en&citsig=AMD79orFe0lK27dXDHbcx97hUezW2OFKQQ Zhuoran Yang] (Yale@Stat.\&DS.), Prof. [https://zhaoranwang.github.io Zhaoran Wang] (NU@IEMS), Prof. [https://people.eecs.berkeley.edu/~jordan/ Michael I. Jordan] (UC Berkeley@EECS)\n
+- We propose and study a bilevel economic system, known as a *M*arkov *E*xchange *E*conomy (MEE), from the viewpoint of multi-agent reinforcement learning.
+With a central planner and a group of agents, the system is optimized when the agents achieve competitive equilibrium (CE) and the planner steers the economy to social welfare maximization (SWM).
+- We derived a novel single metric to mathematically characterize such an optimality, based on which we design provably efficient online and offline learning algorithms (MOLM\/MPLM) for solving the economy.
+	Our algorithm can readily incorporate general function approximation tools for handling large state spaces and achieves optimal online regret/offline suboptimality.
+- Our [https://proceedings.mlr.press/v162/liu22l.html work] is presented as a poster at ICML 2022.
+~~~
+
+~~~
+{}{img_left}{fig_pomdp.png}{alt text}{300}{165.5}
+
+*Project 2:* Offline policy optimization in partially observable Markov decision processes\n
+*Advisor:* Prof. [https://scholar.google.com/citations?user=k7NgVSUAAAAJ&hl=en&citsig=AMD79orFe0lK27dXDHbcx97hUezW2OFKQQ Zhuoran Yang] (Yale), Prof. [https://zhaoranwang.github.io Zhaoran Wang] (NU)\n
+- We propose the /first/ provably efficient offline RL algorithm known as P3O for POMDPs with a /confounded dataset/.
+- At the core of P3O is a coupled sequence of pessimistic confidence regions constructed via proximal causal inference, which is formulated as minimax estimation.
+	We also derived novel theoretical analysis techniques to show the fast statistical rate for the confidence region of this kind, allowing us to prove -1/2-subobtimality rate of P3O.
+- Our [https://arxiv.org/abs/2205.13589 work] is on arXiv and is presented at INFORMS2022 and Stat.\&ML workshop at University of Michigan.
+~~~
+
+
+=== Robust Reinforcement Learning 
+
+~~~
+{}{img_left}{fig_scmdp.png}{alt text}{300}{202.5}
+
+*Project:* Learning robust policy against disturbance in transition dynamics\n
+*Advisor:* Prof. [https://miralab.ai/people/jie-wang/ Jie Wang] (USTC@EEIS)\n
+- We propose a *S*tate-*C*onservative *M*arkov *D*ecision *P*rocess (SC-MDP) to learn robust policies against disturbance in transition dynamics without task-specific knowledge of the disturbance. 
+	From the theoretical perspective, in the tabular setting, we design the State-Conservative Policy Iteration algorithm (SCPI) to learn the correponding optimal policy in a SC-MDP, which enjoys convergence guarantees.
+- To promote robustness in continuous control tasks, we further propose the State-Conservative Policy Optimization algorithm (SCPO) based on SCPI, and we efficiently implement it via a Gradient Based Regularizer (GBR). 
+	Mujoco experiments show that SCPO can improve robustness against disturbance in transition dynamics in various domains.		
+- Our [https://arxiv.org/abs/2112.10513 work] is presented at AAAI 2022.
+~~~
+
+
+
+=== Machine Learning Model Compression
+
+~~~
+{}{img_left}{fig_sfw.png}{alt text}{300}{229.1}
+
+*Project:* Network pruning via Stochastic Frank-Wolfe: any sparsity and no retraining\n
+*Advisor:* Prof. [https://express.adobe.com/page/CAdrFMJ9QeI2y/ Zhangyang (Atlas) Wang] (UT Austin@ECE)\n
+- We propose Stochastic Frank-Wolfe Pruning (SFW-pruning), a one-shot unstructured deep neural network pruning algorithm. 
+	It results in consistent and competitive model performance for varying pruning ratios /without retraining/.
+- We customize a meta-learning-based initialization scheme for SFW-based DNN training, leading to more consistent and competitive performance under more varying pruning ratios. 
+- We demonstrate the efficiency and competitiveness of SFW-pruning over various DNN models and CV datasets.
+- Our [https://openreview.net/forum?id=O1DEtITim__ work] is a *spotlight* presentation at ICLR 2022.
+~~~
+
+
+
+
