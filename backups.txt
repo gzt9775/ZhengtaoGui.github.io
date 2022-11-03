@@ -1,0 +1,5 @@
+{}{img_left}{fig_econ.png}{alt text}{300}{233.6}
+
+{}{img_left}{fig_scmdp.png}{alt text}{300}{202.5}
+
+{}{img_left}{fig_sfw.png}{alt text}{300}{229.1}

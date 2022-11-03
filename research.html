@@ -37,9 +37,15 @@ involving distributional robustness, confounding, and partial observability.</p>
 <h2>Selected Research Experiences (By Topic)</h2>
 <p>During my undergraduate years, I am quite fortunate to be advised by several wonderful professors, for which I can explore the frontiers of areas that I am interested in.</p>
 <h3>Reinforcement Learning Theory</h3>
-<table class="imgtable"><tr><td>
-<img src="fig_econ.png" alt="alt text" width="300px" height="233.6" />&nbsp;</td>
-<td align="left"><p><b>Project 1:</b> Reinforcement learning for Markovian exchange economy<br />
+<p>Reinforcement learning (RL) is an area of machine learning studying how intelligent agents ought to make good decisions by using interactive experiences and evaluative feedback. 
+Its has achieved tremendous success in various domains such as gaming, news recommendation, robotics manipulation, autonomous driving, and healthcare.
+My goal is to develop statistically efficient RL algorithms which enjoy sound theoretical guarantees.
+Previously, I have focused on problems involving offline RL, partial observability, confounding data, general function approximations, etc.
+Besides, I also have interests in designing provably efficient RL algorithms for real-world applications like healthcare and economics.
+The following are two featured projects on RL theory I have done.</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Project 1:</b> Reinforcement learning for Markovian exchange economy<br />
 <b>Advisor:</b> Prof. <a href="https://scholar.google.com/citations?user=k7NgVSUAAAAJ&amp;hl=en&amp;citsig=AMD79orFe0lK27dXDHbcx97hUezW2OFKQQ">Zhuoran Yang</a> (Yale@Stat.&DS.), Prof. <a href="https://zhaoranwang.github.io">Zhaoran Wang</a> (NU@IEMS), Prof. <a href="https://people.eecs.berkeley.edu/~jordan/">Michael I. Jordan</a> (UC Berkeley@EECS)<br /></p>
 <ul>
 <li><p>We propose and study a bilevel economic system, known as a <b>M</b>arkov <b>E</b>xchange <b>E</b>conomy (MEE), from the viewpoint of multi-agent reinforcement learning.
@@ -51,10 +57,10 @@ Our algorithm can readily incorporate general function approximation tools for h
 <li><p>Our <a href="https://proceedings.mlr.press/v162/liu22l.html">work</a> is presented as a poster at ICML 2022.</p>
 </li>
 </ul>
-</td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="fig_pomdp.png" alt="alt text" width="300px" height="165.5" />&nbsp;</td>
-<td align="left"><p><b>Project 2:</b> Offline policy optimization in partially observable Markov decision processes<br />
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Project 2:</b> Offline policy optimization in partially observable Markov decision processes<br />
 <b>Advisor:</b> Prof. <a href="https://scholar.google.com/citations?user=k7NgVSUAAAAJ&amp;hl=en&amp;citsig=AMD79orFe0lK27dXDHbcx97hUezW2OFKQQ">Zhuoran Yang</a> (Yale), Prof. <a href="https://zhaoranwang.github.io">Zhaoran Wang</a> (NU)<br /></p>
 <ul>
 <li><p>We propose the <i>first</i> provably efficient offline RL algorithm known as P3O for POMDPs with a <i>confounded dataset</i>.</p>
@@ -62,46 +68,55 @@ Our algorithm can readily incorporate general function approximation tools for h
 <li><p>At the core of P3O is a coupled sequence of pessimistic confidence regions constructed via proximal causal inference, which is formulated as minimax estimation.
 We also derived novel theoretical analysis techniques to show the fast statistical rate for the confidence region of this kind, allowing us to prove -1/2-subobtimality rate of P3O.</p>
 </li>
-<li><p>Our <a href="https://arxiv.org/abs/2205.13589">work</a> is on arXiv and is presented at INFORMS2022 and Stat.&ML workshop at University of Michigan.</p>
+<li><p>Our <a href="https://arxiv.org/abs/2205.13589">work</a> is on <i>arXiv</i> and is presented at INFORMS2022 annual meeting and a Stat.&ML workshop at University of Michigan.</p>
 </li>
 </ul>
-</td></tr></table>
+</div></div>
 <h3>Robust Reinforcement Learning </h3>
-<table class="imgtable"><tr><td>
-<img src="fig_scmdp.png" alt="alt text" width="300px" height="202.5" />&nbsp;</td>
-<td align="left"><p><b>Project:</b> Learning robust policy against disturbance in transition dynamics<br />
+<p>Standard RL algorithms can perform poorly in real-world environments due the existence of sim-to-real gaps, adversarial attacks, etc.
+To enable the decision-making agent to perform equally well in different domains (with possibly different reward signal and system dynamic) or even under attacks, I am doing researches on robust reinforcement learning.
+The following is a project aiming to promote the robustness of the learned policy.</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Project:</b> Learning robust policy against disturbance in transition dynamics<br />
 <b>Advisor:</b> Prof. <a href="https://miralab.ai/people/jie-wang/">Jie Wang</a> (USTC@EEIS)<br /></p>
 <ul>
 <li><p>We propose a <b>S</b>tate-<b>C</b>onservative <b>M</b>arkov <b>D</b>ecision <b>P</b>rocess (SC-MDP) to learn robust policies against disturbance in transition dynamics without task-specific knowledge of the disturbance. 
 From the theoretical perspective, in the tabular setting, we design the State-Conservative Policy Iteration algorithm (SCPI) to learn the correponding optimal policy in a SC-MDP, which enjoys convergence guarantees.</p>
 </li>
-<li><p>To promote robustness in continuous control tasks, we further propose the State-Conservative Policy Optimization algorithm (SCPO) based on SCPI, and we efficiently implement it via a Gradient Based Regularizer (GBR). 
-Mujoco experiments show that SCPO can improve robustness against disturbance in transition dynamics in various domains.		</p>
+<li><p>To further promote robustness in continuous control tasks, we then propose the State-Conservative Policy Optimization algorithm (SCPO) based on SCPI, and we efficiently implement it via a Gradient Based Regularizer (GBR). 
+Mujoco experiments show that SCPO can greatly improve the robustness against disturbance in transition dynamics in various domains.		</p>
 </li>
 <li><p>Our <a href="https://arxiv.org/abs/2112.10513">work</a> is presented at AAAI 2022.</p>
 </li>
 </ul>
-</td></tr></table>
+</div></div>
 <h3>Machine Learning Model Compression</h3>
-<table class="imgtable"><tr><td>
-<img src="fig_sfw.png" alt="alt text" width="300px" height="229.1" />&nbsp;</td>
-<td align="left"><p><b>Project:</b> Network pruning via Stochastic Frank-Wolfe: any sparsity and no retraining<br />
+<p>It is known that modern deep learning models can suffer from high computational and memorial costs, 
+prohibiting the large-scale deployment of such models across different platforms with varying hardware performances.
+As highly over-parameterized models, modern DNN models can be compressed in various ways even without contaminating their performance.
+I am interested in designing principled DNN training methods that allows computationally efficient model compression.
+The following amazing project that I have done gives a one-shot neural network pruning algorithm which can be used to train and prune deep neural networks to varying sparsity ratios <i>without retraining or fine tuning</i>.</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Project:</b> Network pruning via Stochastic Frank-Wolfe: any sparsity and no retraining<br />
 <b>Advisor:</b> Prof. <a href="https://express.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang (Atlas) Wang</a> (UT Austin@ECE)<br /></p>
 <ul>
 <li><p>We propose Stochastic Frank-Wolfe Pruning (SFW-pruning), a one-shot unstructured deep neural network pruning algorithm. 
-It results in consistent and competitive model performance for varying pruning ratios <i>without retraining</i>.</p>
+By constraining the network parameters in high dimensional K-sparse polytopes, our framework automatically pushes less important weights to smaller magnitudes during training. 
+DNNs trained in this way have more small-value (<i>yet non-zero</i>) weights that can be gradually and smoothly removed when increasing the pruning ratio.
+It results in consistent and competitive model performance for varying pruning ratios even <i>without retraining</i>.</p>
 </li>
-<li><p>We customize a meta-learning-based initialization scheme for SFW-based DNN training, leading to more consistent and competitive performance under more varying pruning ratios. </p>
-</li>
-<li><p>We demonstrate the efficiency and competitiveness of SFW-pruning over various DNN models and CV datasets.</p>
+<li><p>As a byproduct, we further customize a meta-learning-based initialization scheme for SFW-based DNN training, leading to more consistent and competitive performance under more varying pruning ratios. 
+We demonstrate the efficiency and competitiveness of SFW-pruning and the new initialization scheme over various DNN architectures and CV datasets.</p>
 </li>
 <li><p>Our <a href="https://openreview.net/forum?id=O1DEtITim__">work</a> is a <b>spotlight</b> presentation at ICLR 2022.</p>
 </li>
 </ul>
-</td></tr></table>
+</div></div>
 <div id="footer">
 <div id="footer-text">
-Copyright 2022 Miao Lu. Page generated 2022-11-03 03:01:07 CST.
+Copyright 2022 Miao Lu. Page generated 2022-11-03 18:34:50 CST.
 </div>
 </div>
 </td>
