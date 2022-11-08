@@ -39,7 +39,7 @@ With a central planner and a group of agents, the system is optimized when the a
 
 ~~~
 *Project 2:* Offline policy optimization in partially observable Markov decision processes\n
-*Advisor:* Prof. [https://scholar.google.com/citations?user=k7NgVSUAAAAJ&hl=en&citsig=AMD79orFe0lK27dXDHbcx97hUezW2OFKQQ Zhuoran Yang] (Yale), Prof. [https://zhaoranwang.github.io Zhaoran Wang] (NU)\n
+*Advisor:* Prof. [https://scholar.google.com/citations?user=k7NgVSUAAAAJ&hl=en&citsig=AMD79orFe0lK27dXDHbcx97hUezW2OFKQQ Zhuoran Yang] (Yale@Stat.\&DS.), Prof. [https://zhaoranwang.github.io Zhaoran Wang] (NU@IEMS)\n
 - We propose the /first/ provably efficient offline RL algorithm known as P3O for POMDPs with a /confounded dataset/.
 - At the core of P3O is a coupled sequence of pessimistic confidence regions constructed via proximal causal inference, which is formulated as minimax estimation.
 	We also derived novel theoretical analysis techniques to show the fast statistical rate for the confidence region of this kind, allowing us to prove -1/2-subobtimality rate of P3O.
