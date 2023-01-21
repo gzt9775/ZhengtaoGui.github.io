@@ -30,6 +30,8 @@ Here are my [https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&us
 == Recent News
 
 ~~~
+(Jan.2023) One paper accepted to International Conference on Learning Representation (ICLR) 2023.
+
 (Oct. 2022)
 Prof. Zhuoran Yang is presenting our work [https://arxiv.org/abs/2205.13589 Pessimism in the Face of Confounders: Provably Efficient Offline Reinforcement Learning in Partially Observable Markov Decision Processes] at INFORMS2022 and Stat.\&ML workshop at University of Michigan. Here is the [informs2022.pdf slide].\n
 
@@ -45,7 +47,7 @@ I have finished my internship at the AI department of [https://www.ubiquant.com/
 
 \[1\] [https://arxiv.org/abs/2205.13589 Pessimism in the Face of Confounders: Provably Efficient Offline Reinforcement Learning in Partially Observable Markov Decision Processes]\n
 *Miao Lu\**, Yifei Min\*, Zhaoran Wang, Zhuoran Yang. \n
-/Arxiv Preprint/. \[[Pessimism_Confounded_POMDP.pdf *PDF*]\] \[[informs2022.pdf *Slides*]\]\n
+Accepted to /International Conference on Learning Representation (ICLR) 2023/. \[[Pessimism_Confounded_POMDP.pdf *PDF*]\] \[[informs2022.pdf *Slides*]\]\n
 
 
 \[2\] [https://proceedings.mlr.press/v162/liu22l.html Welfare Maximization in Competitive Equilibrium: Reinforcement Learning for Markov Exchange Economy]\n
