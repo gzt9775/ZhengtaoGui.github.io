@@ -17,50 +17,46 @@ In the year of 2022, I won the *Guo Moruo scholarship*, the highest honor awardi
 
 I have broad interests in the span of machine learning, statistics, and optimization.
 I enjoy using mathematical and computational tools to develop theoretical foundations and principled methods for real-world problems.
-To learn more, please check out my [research.html research page].
 If you are interested in my background or want to chat or collaborate, feel free to contact me.
 
 *Contact Information*\n
 
-E-mail addresses: lumiao@mail.ustc.edu.cn, lmdsghhh@gmail.com, miao@compai.tech\n
-Here are my [https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=3jS17zQAAAAJ&gmla=AJsN-F7b-8Yh03vfLpxWv7dg_zOwOUzsHmZtch3jtHn1AnlXfON8_0U4aCOR-BnSLCtfp3F0OjlUxIksNA70jCvUGbggl0Az9TQWt6_SLwYJNcOqCdQDnzA Google Scholar], [https://github.com/MiaoLu3 GitHub], and [Curriculum_Vitae.pdf Curriculum Vitae].
+E-mail addresses: lumiao@mail.ustc.edu.cn, lmdsghhh@gmail.com, miaolu3@hku.hk\n
+Here are my [https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=3jS17zQAAAAJ&gmla=AJsN-F7b-8Yh03vfLpxWv7dg_zOwOUzsHmZtch3jtHn1AnlXfON8_0U4aCOR-BnSLCtfp3F0OjlUxIksNA70jCvUGbggl0Az9TQWt6_SLwYJNcOqCdQDnzA *Google Scholar*], [https://github.com/MiaoLu3 *GitHub*], [https://www.linkedin.com/in/miao-lu-5bb9a31aa *LinkedIn*], and [Curriculum_Vitae.pdf *Curriculum Vitae*].
 ~~~
 
 
 == Recent News
 
 ~~~
-(Jan.2023) One paper accepted to International Conference on Learning Representation (ICLR) 2023.
+(Mar. 2023) In Spring 2023, I am joining on-site [https://www.cs.hku.hk the Department of Computer Science] at [https://www.hku.hk the University of Hong Kong] as a research assistant, working with Prof. [https://difanzou.github.io Difan Zou].
 
-(Oct. 2022)
-Prof. Zhuoran Yang is presenting our work [https://arxiv.org/abs/2205.13589 Pessimism in the Face of Confounders: Provably Efficient Offline Reinforcement Learning in Partially Observable Markov Decision Processes] at INFORMS2022 and Stat.\&ML workshop at University of Michigan. Here is the [informs2022.pdf slide].\n
+(Jan. 2023) One paper accepted to International Conference on Learning Representation (ICLR) 2023.
 
-(Sep. 2022)
-I am now applying for Ph.D. programs starting from 2023 fall. Good luck to me!\n
-
-(Sep. 2022)
-I have finished my internship at the AI department of [https://www.ubiquant.com/website/home Ubiquant Investment], China. Really a wonderful period of time!\n
+(Oct. 2022) Prof. Zhuoran Yang is presenting our work [https://arxiv.org/abs/2205.13589 Pessimism in the Face of Confounders: Provably Efficient Offline Reinforcement Learning in Partially Observable Markov Decision Processes] at INFORMS2022 and Stat.\&ML workshop at University of Michigan. Here is the [informs2022.pdf slide].
 ~~~
 
 == Publications
 
+=== 2023
 
 \[1\] [https://arxiv.org/abs/2205.13589 Pessimism in the Face of Confounders: Provably Efficient Offline Reinforcement Learning in Partially Observable Markov Decision Processes]\n
 *Miao Lu\**, Yifei Min\*, Zhaoran Wang, Zhuoran Yang. \n
-Accepted to /International Conference on Learning Representation (ICLR) 2023/. \[[Pessimism_Confounded_POMDP.pdf *PDF*]\] \[[informs2022.pdf *Slides*]\]\n
+Accepted to /International Conference on Learning Representations (ICLR) 2023/. \[[Pessimism_Confounded_POMDP.pdf *PDF*]\] \[[https://recorder-v3.slideslive.com/?share=79377&s=919b2157-24d6-4bf4-85fd-36f0743e2935 *Video*]\] \[[informs2022.pdf *Slides*]\]\n
 
+=== 2022
 
-\[2\] [https://proceedings.mlr.press/v162/liu22l.html Welfare Maximization in Competitive Equilibrium: Reinforcement Learning for Markov Exchange Economy]\n
+\[1\] [https://proceedings.mlr.press/v162/liu22l.html Welfare Maximization in Competitive Equilibrium: Reinforcement Learning for Markov Exchange Economy]\n
 Zhihan Liu\*, *Miao Lu\**, Zhaoran Wang, Michael I. Jordan, Zhuoran Yang. \n
 Accepted to /International Conference on Machine Learning (ICML) 2022/. \[[ICML2022RLMEE.pdf *PDF*]\] \[[https://icml.cc/virtual/2022/spotlight/18356 *Video*]\] \[[https://github.com/YSLIU627/RL-for-Markov-Exchange-Economy *Code*]\]\n
 
 
-\[3\] [https://openreview.net/forum?id=O1DEtITim__ Learning Pruning-Friendly Networks via Frank-Wolfe: One-Shot, Any-Sparsity, and No Retraining]\n
+\[2\] [https://openreview.net/forum?id=O1DEtITim__ Learning Pruning-Friendly Networks via Frank-Wolfe: One-Shot, Any-Sparsity, and No Retraining]\n
 *Miao Lu\**, Xiaolong Luo\*, Tianlong Chen\*, Wuyang Chen\*, Dong Liu, Zhangyang Wang. \n
-Accepted to /International Conference on Learning Representation (ICLR) 2022/ as *Spotlight*. \[[ICLR2022SFWPruning.pdf *PDF*]\] \[[https://iclr.cc/virtual/2022/spotlight/6159 *Video*]\] \[[https://github.com/VITA-Group/SFW-Once-for-All-Pruning *Code*]\]\n
+Accepted to /International Conference on Learning Representations (ICLR) 2022/ as *Spotlight*. \[[ICLR2022SFWPruning.pdf *PDF*]\] \[[https://iclr.cc/virtual/2022/spotlight/6159 *Video*]\] \[[https://github.com/VITA-Group/SFW-Once-for-All-Pruning *Code*]\]\n
 
 
-\[4\] [https://arxiv.org/abs/2112.10513 Learning Robust Policy against Disturbance in Transition Dynamics via State-Conservative Policy Optimization]\n
+\[3\] [https://arxiv.org/abs/2112.10513 Learning Robust Policy against Disturbance in Transition Dynamics via State-Conservative Policy Optimization]\n
 Yufei Kuang\*, *Miao Lu\**, Jie Wang, Qi Zhou, Bin Li, Houqiang Li. \n
 Accepted to /Association for the Advancement of Artificial Intelligence (AAAI) 2022/. \[[AAAI2022SCPO.pdf *PDF*]\] \[[https://github.com/MIRALab-USTC/RL-SCPO *Code*]\]\n
 

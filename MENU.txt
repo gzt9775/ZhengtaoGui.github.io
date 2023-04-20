@@ -1,4 +1,3 @@
 Homepage
 	About Me				[index.html]
 	Experiences				[experiences.html]
-	Research				[research.html]
